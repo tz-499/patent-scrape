@@ -1,0 +1,58 @@
+# What to watch. Edit freely; no code changes needed.
+
+sources:
+  # USPTO Open Data Portal bulk products (weekly full-text XML, no images).
+  products:
+    - PTGRXML   # grants, published Tuesdays
+    - APPXML    # applications, published Thursdays (about 18 months after filing)
+
+topics:
+  # A patent becomes a candidate for a topic if it hits a CPC prefix OR a keyword.
+  # Candidates are then ranked by text similarity to `description`.
+  # CPC prefixes: "A61N7/" = that main group and everything under it; "G06N" = whole subclass.
+  - name: Neuromodulation and brain stimulation
+    description: >
+      Non-invasive or implanted modulation of brain and neural activity using
+      ultrasound, electromagnetic fields, transcranial magnetic or electrical
+      stimulation, light, or other waves; brain-computer interfaces that read or
+      write neural signals.
+    cpc_prefixes: ["A61N1/36", "A61N2/", "A61N5/06", "A61N7/", "A61B5/369", "G06F3/015"]
+    keywords: ["neuromodulation", "transcranial", "brain stimulation", "focused ultrasound",
+               "brain-computer interface", "neural stimulation"]
+
+  - name: Idle compute and GPU scheduling
+    description: >
+      Using idle or spare capacity of personal computers and GPUs for other
+      workloads; operating-system scheduling and allocation of GPU resources,
+      background or distributed computation on idle machines, sharing a GPU
+      between tasks or virtual machines.
+    cpc_prefixes: ["G06F9/50", "G06F9/48", "G06T1/20"]
+    keywords: ["idle", "graphics processing unit", "gpu", "spare capacity", "resource scheduling"]
+
+  - name: AI and machine learning
+    description: >
+      New machine learning model architectures, training and inference methods,
+      large language models, neural network accelerators, and AI agents.
+    cpc_prefixes: ["G06N3/", "G06N20/", "G06N5/"]
+    keywords: ["large language model", "neural network", "machine learning", "transformer"]
+
+scoring:
+  top_n: 15          # max matches per topic in each digest
+  min_score: 0.10    # raise to cut noise, lower to see more
+  weights:           # added on top of text similarity (0-1)
+    cpc: 0.15
+    keyword: 0.05    # per keyword hit, capped at 4
+    assignee: 0.10
+  watch_assignees:   # substring match, case-insensitive
+    - Microsoft
+    - Neuralink
+    - Nvidia
+    - Google
+    - Apple
+    - Massachusetts Institute of Technology
+
+llm:
+  # Used only when the ANTHROPIC_API_KEY environment variable is set.
+  enabled: true
+  model: claude-haiku-5-5
+  max_per_topic: 10

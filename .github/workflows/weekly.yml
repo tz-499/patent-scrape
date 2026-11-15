@@ -1,0 +1,42 @@
+name: Weekly patent digest
+
+on:
+  schedule:
+    # Fridays 09:17 UTC: after Tuesday's grants and Thursday's applications are out.
+    - cron: "17 9 * * 5"
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: How many days back to look for unprocessed files
+        default: "14"
+
+permissions:
+  contents: write
+
+concurrency: weekly-digest
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+      - name: Build digest
+        env:
+          USPTO_API_KEY: ${{ secrets.USPTO_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LOOKBACK_DAYS: ${{ inputs.lookback_days || '14' }}
+        run: python -m patent_tracker run --lookback-days "$LOOKBACK_DAYS"
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add digests data/matches data/state.json
+          git diff --cached --quiet || git commit -m "Weekly digest $(date -u +%F)"
+          git push

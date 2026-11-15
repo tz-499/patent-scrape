@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v47-2022-02-17.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.7 2022-02-17" file="US12900001-20261110.XML" status="PRODUCTION" country="US">
+<us-bibliographic-data-grant>
+<publication-reference><document-id><country>US</country><doc-number>12900001</doc-number><kind>B2</kind><date>20261110</date></document-id></publication-reference>
+<application-reference appl-type="utility"><document-id><country>US</country><doc-number>18123456</doc-number><date>20230315</date></document-id></application-reference>
+<priority-claims><priority-claim sequence="01" kind="national"><country>KR</country><doc-number>10-2022-0031111</doc-number><date>20220314</date></priority-claim></priority-claims>
+<classifications-cpc>
+<main-cpc><classification-cpc><section>A</section><class>61</class><subclass>N</subclass><main-group>7</main-group><subgroup>00</subgroup></classification-cpc></main-cpc>
+<further-cpc><classification-cpc><section>A</section><class>61</class><subclass>B</subclass><main-group>5</main-group><subgroup>369</subgroup></classification-cpc></further-cpc>
+</classifications-cpc>
+<invention-title id="d2e53">Transcranial focused ultrasound system for <i>targeted</i> neuromodulation</invention-title>
+<us-parties>
+<us-applicants><us-applicant sequence="001" app-type="applicant"><addressbook><orgname>Example Neuro Labs, Inc.</orgname></addressbook></us-applicant></us-applicants>
+<inventors><inventor sequence="001"><addressbook><last-name>Rivera</last-name><first-name>Dana</first-name></addressbook></inventor></inventors>
+</us-parties>
+<assignees><assignee><addressbook><orgname>Example Neuro Labs, Inc.</orgname></addressbook></assignee></assignees>
+</us-bibliographic-data-grant>
+<abstract id="abstract"><p>A wearable array of ultrasound transducers delivers focused ultrasound
+through the skull to modulate neural activity in a selected brain region, with
+closed-loop adjustment based on measured brain signals.</p></abstract>
+<claims id="claims">
+<claim id="CLM-00001" num="00001"><claim-text>1. A system comprising a transducer array configured to deliver focused ultrasound to a target brain region and a controller that adjusts stimulation from sensed neural signals.</claim-text></claim>
+<claim id="CLM-00002" num="00002"><claim-text>2. The system of claim 1, wherein the array is wearable.</claim-text></claim>
+</claims>
+</us-patent-grant>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v47-2022-02-17.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.7 2022-02-17" file="US12900002-20261110.XML" status="PRODUCTION" country="US">
+<us-bibliographic-data-grant>
+<publication-reference><document-id><country>US</country><doc-number>12900002</doc-number><kind>B1</kind><date>20261110</date></document-id></publication-reference>
+<application-reference appl-type="utility"><document-id><country>US</country><doc-number>18222333</doc-number><date>20240102</date></document-id></application-reference>
+<classifications-cpc>
+<main-cpc><classification-cpc><section>A</section><class>47</class><subclass>J</subclass><main-group>31</main-group><subgroup>44</subgroup></classification-cpc></main-cpc>
+</classifications-cpc>
+<invention-title id="d2e53">Beverage brewing apparatus with removable filter basket</invention-title>
+<us-parties>
+<us-applicants><us-applicant sequence="001" app-type="applicant"><addressbook><orgname>Example Kitchenware Co.</orgname></addressbook></us-applicant></us-applicants>
+<inventors><inventor sequence="001"><addressbook><last-name>Okafor</last-name><first-name>Sam</first-name></addressbook></inventor></inventors>
+</us-parties>
+</us-bibliographic-data-grant>
+<abstract id="abstract"><p>A coffee maker having a filter basket that slides out of the housing for cleaning.</p></abstract>
+<claims id="claims"><claim id="CLM-00001" num="00001"><claim-text>1. A brewing apparatus comprising a housing and a removable filter basket.</claim-text></claim></claims>
+</us-patent-grant>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sequence-cwu SYSTEM "us-sequence-listing.dtd" [ ]>
+<sequence-cwu id="SEQLST-0"><number>1</number></sequence-cwu>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-application SYSTEM "us-patent-application-v46-2022-02-17.dtd" [ ]>
+<us-patent-application lang="EN" dtd-version="v4.6 2022-02-17" file="US20260345678A1-20261112.XML" status="PRODUCTION" country="US">
+<us-bibliographic-data-application lang="EN" country="US">
+<publication-reference><document-id><country>US</country><doc-number>20260345678</doc-number><kind>A1</kind><date>20261112</date></document-id></publication-reference>
+<application-reference appl-type="utility"><document-id><country>US</country><doc-number>19000111</doc-number><date>20250509</date></document-id></application-reference>
+<classifications-cpc>
+<main-cpc><classification-cpc><section>G</section><class>06</class><subclass>F</subclass><main-group>9</main-group><subgroup>5027</subgroup></classification-cpc></main-cpc>
+<further-cpc><classification-cpc><section>G</section><class>06</class><subclass>T</subclass><main-group>1</main-group><subgroup>20</subgroup></classification-cpc></further-cpc>
+</classifications-cpc>
+<invention-title id="d2e43">Allocating idle graphics processing unit capacity of client devices to remote workloads</invention-title>
+<us-parties>
+<us-applicants><us-applicant sequence="00" app-type="applicant"><addressbook><orgname>Example Systems Corporation</orgname></addressbook></us-applicant></us-applicants>
+<inventors><inventor sequence="00"><addressbook><last-name>Lindqvist</last-name><first-name>Mara</first-name></addressbook></inventor></inventors>
+</us-parties>
+</us-bibliographic-data-application>
+<abstract id="abstract"><p>An operating system service detects when a personal computer is idle and
+offers its unused GPU capacity to a scheduler that dispatches distributed
+workloads, reclaiming the GPU when the user returns.</p></abstract>
+<claims id="claims"><claim id="CLM-00001" num="00001"><claim-text>1. A method comprising detecting an idle state of a client device, advertising spare GPU capacity to a scheduler, and executing a remote workload on the GPU until user activity resumes.</claim-text></claim></claims>
+</us-patent-application>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v47-2022-02-17.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.7 2022-02-17" file="USD1099999-20261110.XML" status="PRODUCTION" country="US">
+<us-bibliographic-data-grant>
+<publication-reference><document-id><country>US</country><doc-number>D1099999</doc-number><kind>S</kind><date>20261110</date></document-id></publication-reference>
+<application-reference appl-type="design"><document-id><country>US</country><doc-number>29888777</doc-number><date>20240601</date></document-id></application-reference>
+<invention-title id="d2e53">Graphics processing unit housing</invention-title>
+</us-bibliographic-data-grant>
+<claims id="claims"><claim id="CLM-00001" num="00001"><claim-text>The ornamental design for a graphics processing unit housing, as shown.</claim-text></claim></claims>
+</us-patent-grant>
