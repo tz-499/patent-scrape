@@ -94,3 +94,19 @@ def test_end_to_end_local_file(tmp_path, monkeypatch):
     rows = [json.loads(l) for l in (tmp_path / "data" / "matches" / "2026-11-13.jsonl").read_text().splitlines()]
     assert len(rows) == 2
     assert not (tmp_path / "data" / "state.json").exists()  # local runs don't touch state
+
+
+def _m(pub, app, owner, s, doc_type="application"):
+    return {"pub_number": pub, "app_number": app, "assignees": [owner], "score": s, "doc_type": doc_type}
+
+
+def test_select_dedupes_inventions_and_caps_assignees():
+    matches = [
+        _m("US2026A1", "100", "Acme", 0.50),
+        _m("US12B2", "100", "Acme", 0.50, "grant"),   # same application, granted
+        _m("A2", "101", "Acme", 0.45), _m("A3", "102", "ACME", 0.44), _m("A4", "103", "Acme", 0.43),
+        _m("B1", "200", "Other Co", 0.20),
+    ]
+    picked = score.select(matches, top_n=10, max_per_assignee=3)
+    assert [m["pub_number"] for m in picked] == ["US12B2", "A2", "A3", "B1"]
+    assert picked[0]["also_published_as"] == ["US2026A1"]

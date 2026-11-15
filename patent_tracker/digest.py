@@ -36,5 +36,7 @@ def render(run_date: str, ranked: dict[str, list[dict]], stats: dict) -> str:
             else:
                 lines.append(_clip(m["abstract"]) or "_No abstract._")
             lines.append(f"\nCPC: {', '.join(m['cpc'][:5])}")
+            if m.get("also_published_as"):
+                lines.append(f"  \nAlso published as: {', '.join(m['also_published_as'])}")
             lines.append("")
     return "\n".join(lines).rstrip() + "\n"

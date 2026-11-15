@@ -26,8 +26,11 @@ topics:
       workloads; operating-system scheduling and allocation of GPU resources,
       background or distributed computation on idle machines, sharing a GPU
       between tasks or virtual machines.
-    cpc_prefixes: ["G06F9/50", "G06F9/48", "G06T1/20"]
-    keywords: ["idle", "graphics processing unit", "gpu", "spare capacity", "resource scheduling"]
+    cpc_prefixes: ["G06F9/50", "G06F9/48"]
+    # Phrases only: a bare "gpu" or "idle" pulls in unrelated graphics hardware.
+    keywords: ["idle gpu", "spare gpu", "unused gpu", "gpu sharing", "gpu scheduling",
+               "gpu utilization", "idle device", "idle computing", "idle resources",
+               "spare capacity", "idle capacity", "unused capacity"]
 
   - name: AI and machine learning
     description: >
@@ -42,7 +45,8 @@ scoring:
   weights:           # added on top of text similarity (0-1)
     cpc: 0.15
     keyword: 0.05    # per keyword hit, capped at 4
-    assignee: 0.10
+    assignee: 0.03   # small nudge only; a large value lets big filers crowd out a topic
+  max_per_assignee: 3  # per topic, so one company cannot fill the list
   watch_assignees:   # substring match, case-insensitive
     - Microsoft
     - Neuralink

@@ -60,7 +60,7 @@ def run(args) -> int:
         todo = []
         for product in cfg["sources"]["products"]:
             files = odp.list_files(product, api_key)
-            new = [f for f in files if f.date >= cutoff and f.name not in state["processed"]]
+            new = [f for f in files if f.date >= cutoff and (args.force or f.name not in state["processed"])]
             log.info("%s: %d weekly files listed, %d new since %s", product, len(files), len(new), cutoff)
             todo += new
         if not todo:
@@ -109,6 +109,7 @@ def main(argv=None) -> int:
     r.add_argument("--lookback-days", type=int, default=14, help="how far back to look for unprocessed files")
     r.add_argument("--file", action="append", help="process a local .zip/.xml instead of downloading (repeatable)")
     r.add_argument("--date", help="override the digest date (YYYY-MM-DD)")
+    r.add_argument("--force", action="store_true", help="reprocess files already recorded in data/state.json")
     r.add_argument("--keep-raw", action="store_true", help="keep downloaded zips in data/raw")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")

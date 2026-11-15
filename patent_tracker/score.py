@@ -48,7 +48,7 @@ def is_candidate(p: dict, topics: list[Topic]) -> bool:
 
 def rank(patents: list[dict], topics: list[Topic], cfg: dict) -> dict[str, list[dict]]:
     """Score candidates per topic; returns {topic name: top matches, best first}."""
-    weights = {"cpc": 0.15, "keyword": 0.05, "assignee": 0.10, **cfg.get("weights", {})}
+    weights = {"cpc": 0.15, "keyword": 0.05, "assignee": 0.03, **cfg.get("weights", {})}
     min_score = cfg.get("min_score", 0.10)
     top_n = cfg.get("top_n", 15)
     watch = [w.lower() for w in cfg.get("watch_assignees", [])]
@@ -77,6 +77,24 @@ def rank(patents: list[dict], topics: list[Topic], cfg: dict) -> dict[str, list[
             if score >= min_score:
                 out[topic.name].append({**p, "topic": topic.name, "score": round(score, 4),
                                         "similarity": round(float(sims[i, j]), 4)})
-        out[topic.name].sort(key=lambda m: m["score"], reverse=True)
-        out[topic.name] = out[topic.name][:top_n]
+        out[topic.name] = select(out[topic.name], top_n, cfg.get("max_per_assignee", 3))
     return out
+
+
+def select(matches: list[dict], top_n: int, max_per_assignee: int) -> list[dict]:
+    """Pick the top matches, one per invention and at most N per assignee."""
+    # Grants sort ahead of applications at equal score, so the grant wins a duplicate.
+    matches = sorted(matches, key=lambda m: (-m["score"], m["doc_type"] != "grant"))
+    picked, by_app, per_assignee = [], {}, {}
+    for m in matches:
+        key = m["app_number"] or m["pub_number"]
+        if key in by_app:  # same application already picked: just note the other publication
+            by_app[key].setdefault("also_published_as", []).append(m["pub_number"])
+            continue
+        owner = m["assignees"][0].lower() if m["assignees"] else ""
+        if len(picked) >= top_n or (owner and per_assignee.get(owner, 0) >= max_per_assignee):
+            continue
+        per_assignee[owner] = per_assignee.get(owner, 0) + 1
+        by_app[key] = m
+        picked.append(m)
+    return picked

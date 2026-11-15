@@ -9,6 +9,10 @@ on:
       lookback_days:
         description: How many days back to look for unprocessed files
         default: "14"
+      force:
+        description: Reprocess files that were already handled (e.g. after a config change)
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -32,7 +36,8 @@ jobs:
           USPTO_API_KEY: ${{ secrets.USPTO_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           LOOKBACK_DAYS: ${{ inputs.lookback_days || '14' }}
-        run: python -m patent_tracker run --lookback-days "$LOOKBACK_DAYS"
+          FORCE: ${{ inputs.force && '--force' || '' }}
+        run: python -m patent_tracker run --lookback-days "$LOOKBACK_DAYS" $FORCE
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
