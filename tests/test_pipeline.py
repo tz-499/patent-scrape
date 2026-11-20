@@ -110,3 +110,8 @@ def test_select_dedupes_inventions_and_caps_assignees():
     picked = score.select(matches, top_n=10, max_per_assignee=3)
     assert [m["pub_number"] for m in picked] == ["US12B2", "A2", "A3", "B1"]
     assert picked[0]["also_published_as"] == ["US2026A1"]
+
+
+def test_session_retries_rate_limits():
+    retry = odp.make_session().get_adapter("https://api.uspto.gov").max_retries
+    assert 429 in retry.status_forcelist and retry.total >= 3 and retry.respect_retry_after_header

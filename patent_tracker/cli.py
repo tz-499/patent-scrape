@@ -7,6 +7,7 @@ import json
 import logging
 import os
 import sys
+import time
 from pathlib import Path
 
 import yaml
@@ -58,15 +59,18 @@ def run(args) -> int:
             return 2
         cutoff = dt.date.today() - dt.timedelta(days=args.lookback_days)
         todo = []
-        for product in cfg["sources"]["products"]:
-            files = odp.list_files(product, api_key)
+        http = odp.make_session()
+        for i, product in enumerate(cfg["sources"]["products"]):
+            if i:
+                time.sleep(3)  # space out calls; the API rate-limits back-to-back requests
+            files = odp.list_files(product, api_key, http)
             new = [f for f in files if f.date >= cutoff and (args.force or f.name not in state["processed"])]
             log.info("%s: %d weekly files listed, %d new since %s", product, len(files), len(new), cutoff)
             todo += new
         if not todo:
             log.info("Nothing new to process.")
             return 0
-        paths = [odp.download(f, root / "data" / "raw", api_key) for f in todo]
+        paths = [odp.download(f, root / "data" / "raw", api_key, http) for f in todo]
         names = [f.name for f in todo]
 
     candidates, scanned = scan(paths, topics)

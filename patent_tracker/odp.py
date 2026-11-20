@@ -11,6 +11,8 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 API_BASE = "https://api.uspto.gov/api/v1/datasets/products"
 
@@ -51,21 +53,41 @@ def files_from_response(payload: dict) -> list[BulkFile]:
     return sorted(found.values(), key=lambda f: f.date)
 
 
+def make_session() -> requests.Session:
+    """Session that waits and retries on rate limits (429) and transient server errors.
+
+    The ODP API rate-limits per key; back-to-back calls can get a 429, and the
+    response's Retry-After header (when present) is honoured.
+    """
+    retry = Retry(
+        total=6,
+        backoff_factor=5,  # 5s, 10s, 20s, 40s... between attempts
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=("GET",),
+        respect_retry_after_header=True,
+        raise_on_status=False,
+    )
+    session = requests.Session()
+    session.mount("https://", HTTPAdapter(max_retries=retry))
+    return session
+
+
 def list_files(product: str, api_key: str, session: requests.Session | None = None) -> list[BulkFile]:
-    http = session or requests
+    http = session or make_session()
     resp = http.get(f"{API_BASE}/{product}", headers={"x-api-key": api_key}, timeout=60)
     resp.raise_for_status()
     return files_from_response(resp.json())
 
 
-def download(file: BulkFile, dest_dir: Path, api_key: str) -> Path:
+def download(file: BulkFile, dest_dir: Path, api_key: str, session: requests.Session | None = None) -> Path:
     """Stream a bulk file to disk; skips the download if it is already there."""
     dest_dir.mkdir(parents=True, exist_ok=True)
     dest = dest_dir / file.name
     if dest.exists() and dest.stat().st_size > 0:
         return dest
     tmp = dest.with_suffix(".part")
-    with requests.get(file.url, headers={"x-api-key": api_key}, stream=True, timeout=300) as resp:
+    http = session or make_session()
+    with http.get(file.url, headers={"x-api-key": api_key}, stream=True, timeout=300) as resp:
         resp.raise_for_status()
         with open(tmp, "wb") as out:
             for chunk in resp.iter_content(chunk_size=1 << 20):
