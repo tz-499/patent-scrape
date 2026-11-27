@@ -1,325 +1,325 @@
-# Patent digest - 2026-11-20
+# Patent digest - 2026-11-27
 
-Files: ipg261117.zip, ipa261119.zip  
-Scanned 18,126 documents, 1,134 passed the CPC/keyword filter.
+Files: ipg261124.zip, ipa261126.zip  
+Scanned 17,646 documents, 1,025 passed the CPC/keyword filter.
 
 ## Neuromodulation and brain stimulation (15)
 
-### [THERAPUETIC ULTRASOUND SYSTEM USING OVERLAPPING FOCAL VOLUMES](https://patents.google.com/patent/US20260364384A1/en)
-`US20260364384A1` | Application | West Virginia University Board of Governors on behalf of West Virginia University | published 2026-11-19 | filed 2026-01-23 | score 0.30
+### [ADAPTIVE USER INTERFACES FOR BRAIN COMPUTER INTERFACE SYSTEMS](https://patents.google.com/patent/US20260376981A1/en)
+`US20260376981A1` | Application | Synchron Australia Pty Limited | published 2026-11-26 | filed 2026-03-25 | score 0.33
 
-Systems and methods are provided for focused ultrasound neuromodulation. A first phased array ultrasound transducer is positioned within a fixation device to provide a first ultrasound beam through the ultrasound temporal window of a patient with a first focal volume within a region of interest. A second phased array ultrasound transducer is positioned within the fixation device to provide a second ultrasound beam...
+The present disclosure relates to systems and method for adapting a brain-computer interface to a user. In some aspects, the method includes providing an electronic user interface of a brain-computer interface configured to interact with an electronic device using a plurality of electronic control switches selectable using a neural activity of the user. The electronic user interface may be configured to increase or...
 
-CPC: A61N 7/00, A61N 2007/0026, A61N 2007/0095
+CPC: G06F 3/015
 
-### [SYSTEMS AND METHODS FOR CLOSED-LOOP NEUROMODULATION USING MULTIPLE BIOLOGICAL SIGNALS](https://patents.google.com/patent/US20260364363A1/en)
-`US20260364363A1` | Application | The Feinstein Institutes for Medical Research | published 2026-11-19 | filed 2023-11-17 | score 0.29
+### [CONTEXTUALIZED DECODING FOR BRAIN COMPUTER INTERFACE SYSTEMS](https://patents.google.com/patent/US20260376984A1/en)
+`US20260376984A1` | Application | Synchron Australia Pty Limited | published 2026-11-26 | filed 2026-07-30 | score 0.32
 
-Neuromodulation devices and methods configured to supply electrical stimulation to a subject based on the one or more biological signals obtained by one or more sensors. These apparatuses may be configured to transmit more than 90% of the time, with limited and prescribed receiving capability.
+Decoders for brain-computer interfaces (BCI) contextually decode a neural signal from an individual to produce an actionable command that allows the BCI to interact with one or more electronic devices. A neural interface device implanted in proximity to an individual’s motor cortex generates an electronic signal representative of brain activity, which is transmitted to a computer processor. The computer processor...
 
-CPC: A61N 1/3787, A61N 1/36139, A61N 1/36171
+CPC: G06F 3/015
 
-### [Deep brain stimulation transparent electrode array and neural signal detection method using same](https://patents.google.com/patent/US12797611B2/en)
-`US12797611B2` | Grant | University of Seoul Industry Cooperation Foundation | published 2026-11-17 | filed 2020-01-09 | score 0.29
+### [ENHANCEMENT OF BLOOD BRAIN BARRIER PERMEABILITY WITH LOW INTENSITY AND VARIABLE FREQUENCY MAGNETIC STIMULATION](https://patents.google.com/patent/US20260373489A1/en)
+`US20260373489A1` | Application | ACTIPULSE NEUROSCIENCE INC. | published 2026-11-26 | filed 2024-04-25 | score 0.29
 
-A deep brain stimulation transparent electrode array and a neural signal detection method using the same are proposed. The deep brain stimulation transparent electrode array includes a biocompatible dielectric substrate, a plurality of electrode sites arranged on one side of the substrate, a plurality of electrically conductive contacts arranged on the other side of the substrate, and an interconnector extended from...
+The present disclosure provides, in part, methods of transient blood-brain barrier (BBB) disruption by applying repetitive transcranial magnetic stimulation (rTMS) therapy to a subject in need thereof for central nervous system (CNS)-targeted drug delivery. The present disclosure also provides, in part, devices that generate a low intensity magnetic field and variable frequencies for rTMS.
 
-CPC: A61N 1/36, A61B 5/291, A61B 5/369, A61B 5/6868, A61N 1/05
+CPC: A61N 2/002, A61K 41/00, A61N 2/006, A61N 2/02
 
-### [Method and apparatus for brain function enhancement](https://patents.google.com/patent/US12797637B2/en)
-`US12797637B2` | Grant | Li-Da Huang | published 2026-11-17 | filed 2024-05-21 | score 0.27
+### [METHODS AND DEVICES FOR SUPERVISION OF CLOSED-LOOP NEURAL STIMULATION THERAPY](https://patents.google.com/patent/US20260373474A1/en)
+`US20260373474A1` | Application | Saluda Medical Pty Limited | published 2026-11-26 | filed 2026-05-22 | score 0.29
 
-In one aspect, a system for in vivo and transcranial stimulation of brain tissue of a subject may include at least one light source, a controller to control operation of the light source, a signal detecting unit and a processor configured to receive signals from the signal detecting unit, analyze the signals and generate a feedback signal to the controller to control the light source until optimal results are...
+Methods and systems for adapting a neuromodulation system to changes in system integrity. A system may check system integrity in response to the passage of time or to an asynchronous trigger. If a loss of system integrity is identified, changes to therapy program parameters are determined and tested for satisfactory performance. The changes to a therapy program may include identifying a new therapeutic target....
 
-CPC: A61N 5/0622, A61N 5/062, A61N 2005/0666, A61N 5/067
+CPC: A61N 1/36139, A61N 1/36062, A61N 1/36071, A61N 1/3615
 
-### [SYSTEMS AND METHODS FOR BRAIN STATE STIMULATION](https://patents.google.com/patent/US20260363600A1/en)
-`US20260363600A1` | Application | Duke University | published 2026-11-19 | filed 2023-12-07 | score 0.23
+### [METHODS AND SYSTEMS FOR AUTOMATED CALIBRATION OF LOCAL FIELD POTENTIAL SENSING TOOLS FOR DEEP BRAIN STIMULATION](https://patents.google.com/patent/US20260373471A1/en)
+`US20260373471A1` | Application | MEDTRONIC, INC. | published 2026-11-26 | filed 2023-11-30 | score 0.29
 
-The present disclosure provides systems and methods for predicting and treating a neurological behavior in a subject. The system may include a plurality of electrodes configured to receive electrical activity signals from a network of two or more regions of the subject's brain and a controller in communication with the plurality of electrodes. The system may be configured to receive and record the electrical...
+A system for automated calibration of Local Field Potential (LFP) sensing for deep brain stimulation can comprise one or more electrodes and control circuitry. The control circuitry is configured to, prior to delivery of electrical stimulation via the one or more electrodes, sense, using the one or more electrodes, LFPs of the brain, record a snapshot of LFP activity across a wide frequency band, determine a peak...
 
-CPC: A61B 5/369, A61N 1/0529, A61N 1/36078, A61N 1/36082, A61N 1/36139
+CPC: A61N 1/36135, A61N 1/37247
 
-### [ENGAGEMENT COMPONENT SELECTION FOR CONTROL OF BIO-PSYCHIATRIC THERAPEUTIC TRAJECTORY (BTT)](https://patents.google.com/patent/US20260364347A1/en)
-`US20260364347A1` | Application | The City University of New York | published 2026-11-19 | filed 2026-02-23 | score 0.23
+### [System and method for deep brain stimulation](https://patents.google.com/patent/US12806420B2/en)
+`US12806420B2` | Grant | THE BOARD OF REGENTS OF THE UNIVERSITY OF TEXAS SYSTEM | published 2026-11-24 | filed 2023-11-06 | score 0.27
 
-Methods, devices, and systems are described for closed-loop neuromodulation for control of a physiological state. The system includes an energy application system, a user device, a sensor, and a controller. The controller may be configured to select a state phase based on an engagement component. The controller may be configured to prompt at least one of the user device to present a cue to the subject or the energy...
+A cystoscopy system with intracranial electrodes operable to be disposed in a hippocampus region of a brain and configured to record electrical signals that include biomarkers related to memory encoding, a neurostimulator configured to stimulate a posterior cingulate cortex (PCC) of the brain, a NARXNN plant model, and a controller configured to receive the electrical signals and modulate an input/output (I/O)...
 
-CPC: A61N 1/36025, A61N 1/36034
+CPC: A61N 1/36135, A61N 1/025, A61N 1/0534, G16H 20/30
 
-### [Systems and methods for generic control using a neural signal](https://patents.google.com/patent/US12801218B2/en)
-`US12801218B2` | Grant | Synchron Australia Pty Limited | published 2026-11-17 | filed 2024-08-26 | score 0.23
+### [Graphene-based electrodes for electroencephalogram-based brain computer interface systems](https://patents.google.com/patent/US12805740B2/en)
+`US12805740B2` | Grant | Imam Abdulrahman Bin Faisal University | published 2026-11-24 | filed 2023-05-11 | score 0.27
 
-Universal switch modules, universal switches, and methods of using the same are disclosed, including haptic confirmation of commands generated by the user, methods of preparing an individual to interface with an electronic device or software.
+A brain-computer interface (BCI) system that includes a cap having wired electrodes selected such as a graphene-based electrode and a reduced graphene oxide (rGO)-coated electrode; a data acquisition and processing unit; and a computing device. The cap is operatively connected to the data acquisition and processing unit via the wired electrodes. The computing device has a communications interface coupled to the data...
 
-CPC: G06F 3/015, G06F 3/016
+CPC: A61B 5/05, A61N 1/36, A61B 5/369
 
-### [Neuromodulation and other therapies to treat a combination of obstructive sleep apnea and central sleep apnea](https://patents.google.com/patent/US12797618B2/en)
-`US12797618B2` | Grant | The Alfred E. Mann Foundation for Scientific Research | published 2026-11-17 | filed 2023-12-08 | score 0.22
+### [Protocol to enhance therapeutic effects of transcranial magnetic stimulation](https://patents.google.com/patent/US12806434B2/en)
+`US12806434B2` | Grant | The United States of America, as represented by the Secretary, Department of Health and Human Services | published 2026-11-24 | filed 2022-12-06 | score 0.27
 
-The present disclosure generally relates to systems and methods for stimulating the hypoglossal nerve (HGN) and phrenic nerve (PN) to treat OSA and CSA for a subject. The system includes an implantable pulse generator (IPG) coupled to a first electrode and a second electrode, where the first electrode is configured to stimulate a HGN of the subject and the second electrode is configured to stimulate a PN of the...
+A system for administering transcranial magnetic stimulation to a subject is provided. The system includes a coil a controller, and a high-power switching module. The controller is configured to generate low voltage control signals for administering a treatment protocol via the coil. The high-power switching module is configured to generate a high voltage current delivered to the coil based on the low voltage...
 
-CPC: A61N 1/36135, A61N 1/3611, A61N 1/36167, G16H 50/20, A61N 1/36053
+CPC: A61N 2/02, A61N 2/006
 
-### [Methods and systems for magnetic stimulation](https://patents.google.com/patent/US12797626B2/en)
-`US12797626B2` | Grant | DUKE UNIVERSITY | published 2026-11-17 | filed 2021-09-16 | score 0.22
+### [SYSTEMS AND METHODS FOR TARGETED NEUROMODULATION](https://patents.google.com/patent/US20260372697A1/en)
+`US20260372697A1` | Application | Krish Maheshwari, Arya Sharika Dhar | published 2026-11-26 | filed 2026-07-10 | score 0.26
 
-Methods and systems for magnetic stimulation are described. In some examples, a coil assembly for magnetic stimulation includes a winding block, a coil in the winding block, and a casing enclosing the winding block. The winding block is mounted to the casing only at one or more acoustic nodes of the winding block. The one or more acoustic nodes are identified as points in the winding block having minimal amplitude...
+A system and a method for targeted neuromodulation are disclosed. The neuromodulation system comprises a wearable patch configured for placement on a target anatomical region of a user's body. The wearable patch comprises a microneedle array designed to deliver a medicament to neural tissue adjacent to the patch, one or more electrodes for delivering electrical stimulation to the neural tissue, and one or more...
 
-CPC: A61N 2/006, A61N 2/02
+CPC: A61B 5/4824, A61B 5/4839, A61B 5/6833, A61B 5/685, A61M 37/0015
 
-### [Methods and Systems for Translation of Neural Activity into Embodied Digital-Avatar Animation](https://patents.google.com/patent/US20260367702A1/en)
-`US20260367702A1` | Application | The Regents of the University of California | published 2026-11-19 | filed 2024-06-06 | score 0.22
+### [SYSTEMS AND METHODS FOR MAGNETIC RESONANCE BASED SKULL THERMOMETRY](https://patents.google.com/patent/US20260372620A1/en)
+`US20260372620A1` | Application | University of Virginia Patent Foundation | published 2026-11-26 | filed 2026-04-28 | score 0.26
 
-Methods of assisting individuals with communication are provided. In the disclosed methods, cortical activity from a region of the brain associated with movement, speech production, and/or language perception is recorded while an individual attempts to perform an action (e.g., to say words, express an emotion, perform a movement, etc.). Deep learning computational models are used to detect and decode the attempted...
+Described herein are systems, methods, and computer-readable medium for magnetic resonance (MR) based thermometry. A method for magnetic resonance based thermometry includes: acquiring, by a T1 mapping sequence, MR data in an area of interest of a subject that is heated by the application of focused ultrasound (FUS) to the brain of the subject, where the MR data includes T1 values over time, and where the...
 
-CPC: G06F 3/015, A61B 5/37, A61B 5/374, A61B 5/7267, G06N 3/0442
+CPC: A61B 5/0036, A61B 5/0042, A61B 5/01, A61B 5/055, A61B 5/7278
 
-### [THERAPEUTIC ULTRASOUND METHODS](https://patents.google.com/patent/US20260364386A1/en)
-`US20260364386A1` | Application | B.G. NEGEV TECHNOLOGIES AND APPLICATIONS LTD., THE JOHNS HOPKINS UNIVERSITY | published 2026-11-19 | filed 2024-05-31 | score 0.22
+### [Simultaneous focused ultrasound and fMRI and application of focused ultrasound outside of MRI environment](https://patents.google.com/patent/US12806447B2/en)
+`US12806447B2` | Grant | Vanderbilt University | published 2026-11-24 | filed 2021-10-08 | score 0.26
 
-Provided herein methods of treating diseases or disorders, particularly primary brain cancers, brain metastases, and other cancers, as well as inflammatory disorders, by directly insonating tissues with low-frequency ultrasound.
+A workflow has been developed that enables initially mapping of a focused ultrasound (FUS) beam using magnetic resonance (MR) thermometry or MR-acoustic radiation force imaging (MR-ARFI) while working within the MRI device. During this procedure, key measurements will be taken including the precise location of the transducer relative to the skull and the transducer parameters (such as amplitudes and phases) required...
 
-CPC: A61N 7/022, A61N 2007/0026
+CPC: A61N 7/02, A61B 90/11, A61B 90/14, A61N 2007/0021
 
-### [Systems and methods for stimulating two or more nerve branches](https://patents.google.com/patent/US12797614B2/en)
-`US12797614B2` | Grant | Texas Medical Center | published 2026-11-17 | filed 2023-10-13 | score 0.21
+### [Automated selection of electrodes and stimulation parameters in a deep brain stimulation system using anatomical structures](https://patents.google.com/patent/US12806423B2/en)
+`US12806423B2` | Grant | Boston Scientific Neuromodulation Corporation | published 2026-11-24 | filed 2024-01-30 | score 0.25
 
-Disclosed herein are devices, systems, and methods for treating a medical condition through a coordinated stimulation of two or more target nerves. In some embodiments, the stimulation comprises electrical stimulation delivered to a patient. In some embodiments, the coordinated stimulation comprises the two or more target nerves being stimulated in parallel, in series, a combination thereof, or any coordinated...
+A method for optimizing stimulation for a patient having a stimulator device such as a Deep Brain Stimulation (DBS) device is disclosed, which involves a consideration of tissue imaging information in the environment around the lead. Test stimulation is provided at initial combinations of lead positions and values of a stimulation parameter such as amplitude, with patient results scored for each combination. Tissue...
 
-CPC: A61N 1/36025, A61B 5/026, A61N 1/0456, A61N 1/0484, A61N 1/36034
+CPC: A61N 1/37241, A61N 1/025, A61N 1/0534, A61N 1/36192
 
-### [SYSTEMS AND METHODS TO PLACE ONE OR MORE LEADS IN TISSUE FOR PROVIDING FUNCTIONAL AND/OR THERAPEUTIC STIMULATION](https://patents.google.com/patent/US20260364352A1/en)
-`US20260364352A1` | Application | SPR Therapeutics, Inc. | published 2026-11-19 | filed 2026-07-21 | score 0.20
+### [DEEP BRAIN STIMULATION SYSTEM AND METHOD FOR AUTOMATIC ADJUSTMENT OF STIMULATION VIA WORKLOAD MEASURE INTERPRETATION](https://patents.google.com/patent/US20260373473A1/en)
+`US20260373473A1` | Application | ADVANCED NEUROMODULATION SYSTEMS, INC. | published 2026-11-26 | filed 2026-05-14 | score 0.25
 
-Systems and methods make possible the placement of one or more electrode leads in a tissue region for providing functional and/or therapeutic stimulation to tissue. The systems and methods are adapted to provide the relief of pain.
+A system and method are provided that receive physiological data of a patient measured by physiological sensor(s). A workload measurement is selected based on the physiological data that is measured, patient subjective ratings of workload during performance of tests, and/or performance data provided by a physician during the tests. The workload measurement is selected from plural different values of the workload...
 
-CPC: A61N 1/36071, A61N 1/0551, A61N 1/0558, A61N 1/36017, A61N 1/36021
+CPC: A61N 1/36139, A61N 1/36082, A61N 1/37247
 
-### [MUSCLE STIMULATION DEVICE](https://patents.google.com/patent/US20260364343A1/en)
-`US20260364343A1` | Application | CHIRP INNOVATION, LLC. | published 2026-11-19 | filed 2025-05-16 | score 0.20
+### [Hiatal Hernia Procedure Combined with an Implanted Electrical Stimulation System to Treat Gastroesophageal Reflux Disease](https://patents.google.com/patent/US20260373457A1/en)
+`US20260373457A1` | Application | EndoStim, Inc. | published 2026-11-26 | filed 2026-05-01 | score 0.24
 
-A system includes a remote control and a stimulation device with a pulse generator. The stimulation device is configured to receive data from the remote control associated with providing electrical stimulation, determine, based at least in part on the data, a setting associated with providing the electrical stimulation, and generate, based at least in part on the setting and via the pulse generator, electrical...
+Obligatory circumferential hiatal dissection with routine cruroplasty and crural closure mechanically anchors the GEJ intraabdominally via lead implant, combined with LES electrical stimulation, yielding durable reductions in esophageal acid exposure and GERD symptoms. This restores three anti-reflux mechanisms: intrinsic LES function via neuromodulation; extrinsic crural function via hiatal repair regardless of...
 
-CPC: A61N 1/08, A61N 1/36003, A61N 1/36021, G08B 5/36
+CPC: A61N 1/36007, A61N 1/0517, A61N 1/37217, A61N 1/37235
 
-### [Therapy Device](https://patents.google.com/patent/US20260364370A1/en)
-`US20260364370A1` | Application | Piomic Medical AG | published 2026-11-19 | filed 2026-07-24 | score 0.20
+### [Neuromodulation to target glucose transporter and/or incretin pathways](https://patents.google.com/patent/US12805790B2/en)
+`US12805790B2` | Grant | GE Precision Healthcare LLC | published 2026-11-24 | filed 2025-06-09 | score 0.24
 
-Embodiments disclosed herein describe an optical and magnetic stimulation, OMS, wound therapy device comprising: a light source configured to generate an optical field for an OMS wound therapy; an electric circuit coupled to the light source for driving the light source to generate the optical field; a coil configured to generate a magnetic field for the OMS wound therapy; and a magnetic field shield arranged...
+The subject matter of the present disclosure generally relates to techniques for neuromodulation that include applying energy (e.g., ultrasound energy) into the tissue to cause a change in a glucose transporter pathway molecule and/or an incretin pathway molecule. In one embodiment, the neuromodulation is performed as a treatment of a metabolic disorder.
 
-CPC: A61N 2/002, A61N 2/02, A61N 5/0616, A61B 2017/00057, A61B 2018/00904
+CPC: A61B 5/4244, A61B 5/14532, A61B 5/4848, A61N 7/00, G01N 33/66
 
 ## Idle compute and GPU scheduling (15)
 
-### [Task Scheduling Method and Related Apparatus for Same](https://patents.google.com/patent/US20260367972A1/en)
-`US20260367972A1` | Application | Honor Device Co., Ltd. | published 2026-11-19 | filed 2026-07-09 | score 0.21
+### [Controlling operation of a GPU](https://patents.google.com/patent/US12809674B2/en)
+`US12809674B2` | Grant | Imagination Technologies Limited | published 2026-11-24 | filed 2023-12-26 | score 0.26
 
-Embodiments of this disclosure provide a task scheduling method and a related apparatus for same. An apparatus for implementing the task scheduling method may be an electronic device including a GPU and a display screen, such as a mobile phone or a tablet computer. Through implementation of the foregoing method, the electronic device can identify a task type of a GPU task, an application to which the GPU task...
+The operation of a GPU is controlled based on one or more deadlines by which one or more GPU tasks must be completed and estimates of the time required to complete the execution of a first GPU task (which is currently being executed) and the time required to execute one or more other GPU tasks (which are not currently being executed). Based on a comparison between the deadline(s) and the estimates, the operating...
 
-CPC: G06F 9/4881, G06F 9/485
+CPC: G06F 9/4887, G06F 9/4818, G06F 9/4881, G06T 1/20
 
-### [LIVE MIGRATION OF A VIRTUAL MACHINE EXECUTING WORKLOADS ON A GPU](https://patents.google.com/patent/US20260367996A1/en)
-`US20260367996A1` | Application | VMware LLC | published 2026-11-19 | filed 2025-05-14 | score 0.20
+### [GPU-BASED QUERY PROCESSING ACCELERATION METHOD AND COMPUTING SYSTEM](https://patents.google.com/patent/US20260377417A1/en)
+`US20260377417A1` | Application | POSTECH RESEARCH AND BUSINESS DEVELOPMENT FOUNDATION | published 2026-11-26 | filed 2023-12-20 | score 0.23
 
-A virtual machine (VM) that is executing workloads on a GPU is live migrated from a source host computer to a destination host computer. The live migration includes the steps of: while the VM is executing on the source host computer, selectively reading cold data from a frame buffer of the GPU and transferring the selectively read cold data to the destination host computer and then iteratively transferring contents...
+A method according to one embodiment of the present disclosure comprises the steps of: converting parallel pipeline execution on a GPU for processing a query, into a tree traversal on a tuple processing tree; redistributing nodes on the tree to lanes within warps based on a level on the tuple processing tree within one warp set on the GPU to process a query; and redistributing at least some of the nodes on the tree...
 
-CPC: G06F 9/5088, G06F 9/5038, G06F 9/5077
+CPC: G06F 16/24569, G06F 9/5066, G06F 9/5088, G06F 16/24526
 
-### [Method and Apparatus for Improving the Scalability of GPU Architecture](https://patents.google.com/patent/US20260368847A1/en)
-`US20260368847A1` | Application | BEIJING FANTASY TECHNOLOGY CO., LTD. | published 2026-11-19 | filed 2026-05-13 | score 0.20
+### [Task execution scheduling](https://patents.google.com/patent/US12809667B2/en)
+`US12809667B2` | Grant | NVIDIA CORPORATION | published 2026-11-24 | filed 2022-09-02 | score 0.20
 
-The present invention relates to the technical field of high-performance computing and provides a method and apparatus for improving the scalability of GPU architecture. A system-level common module splits a total workload into a plurality of first-level workloads and distributes the first-level workloads to corresponding super scalable groups; an SSG common module of each super scalable group splits the first-level...
+One or more embodiments of the present disclosure relate to identifying, based on application data associated with a computing application that includes a set of runnables, a plurality of scheduling branches associated with scheduling execution of at least a subset of runnables of the set of runnables. Further, one or more embodiments relate to selecting a scheduling branch from the plurality of scheduling branches...
 
-CPC: G06T 1/20, G06F 9/4881
+CPC: G06F 9/4881, G06F 9/30087, G06F 9/3836, G06F 9/485, G06F 9/5055
 
-### [Hardware-accelerated nearest neighbor queries for arbitrary data primitives](https://patents.google.com/patent/US12802153B2/en)
-`US12802153B2` | Grant | NVIDIA Corporation | published 2026-11-17 | filed 2024-09-26 | score 0.20
+### [Provisioning of performance states for central processing units (CPUS)](https://patents.google.com/patent/US12809673B2/en)
+`US12809673B2` | Grant | Apple Inc. | published 2026-11-24 | filed 2023-09-13 | score 0.20
 
-Apparatuses, systems, and techniques to perform a K-nearest-neighbor query. In at least one embodiment, a set of bounding boxes corresponding to a set of primitives is generated that allows the query to be solved using light transport simulation acceleration features of a GPU.
+Systems, methods, and apparatuses disclosed herein can operate in different performance states that provide different energy performance tradeoffs and, in some embodiments, can dynamically switch between these different performance states. These systems, methods, and apparatuses can estimate specific timeframes that workloads are to be completed. These systems, methods, and apparatuses can identify one or more...
 
-CPC: G06T 1/20, G06F 9/3877, G06F 9/5044, G06T 15/10, G06T 2210/12
+CPC: G06F 9/4887, G06F 1/3203, G06F 1/3234, G06F 9/4893, G06F 9/5044
 
-### [DEPLOYING DIGITAL AVATARS](https://patents.google.com/patent/US20260367880A1/en)
-`US20260367880A1` | Application | NVIDIA Corporation | published 2026-11-19 | filed 2026-07-27 | score 0.19
+### [Routing in a GPU super-cluster](https://patents.google.com/patent/US12809681B2/en)
+`US12809681B2` | Grant | Oracle International Corporation | published 2026-11-24 | filed 2023-11-02 | score 0.20
 
-Disclosed are systems and techniques for configuring multi-modal digital avatar (DA) resources. The techniques include selecting a plurality of multi-modal DA resources identifying, for a first multi-modal DA resource of the plurality of multi-modal DA resources, at least a first modal input event and a second modal input event, and generating a graph that defines an execution flow for the plurality of multi-modal...
+A plurality of GPU clusters are communicatively coupled with one another via a plurality of network devices arranged in a hierarchical structure, wherein the GPU clusters includes at least a first GPU cluster operating at a first speed and a second GPU cluster operating at a second speed that is different than the first speed. A routing policy is configured for each network device, wherein the configuring includes...
 
-CPC: G06F 8/34, G06F 9/453, G06F 9/4806, G06F 9/5038, G06F 9/4498
+CPC: G06F 9/5027, G06F 9/5083, G06F 13/4022, H04L 45/24, H04L 45/74
 
-### [Dynamic Hierarchical Workload-Driven Control of Frequency Utilization Applicable to a System-on-Chip (SOC) Environment](https://patents.google.com/patent/US20260367988A1/en)
-`US20260367988A1` | Application | Google LLC | published 2026-11-19 | filed 2026-07-02 | score 0.19
+### [DECOUPLING OF VIRTUAL MACHINE HOST AND GUEST POWER USAGE](https://patents.google.com/patent/US20260377238A1/en)
+`US20260377238A1` | Application | Microsoft Technology Licensing, LLC | published 2026-11-26 | filed 2025-05-22 | score 0.19
 
-Modern computing systems dynamically adjust hardware operation points to balance performance against power and thermal limitations. However, purely reactive power and thermal mitigation mechanisms can respond too slowly to sudden workload demands or prematurely throttle processing speeds based on static safety thresholds. To address these issues, a hierarchical, multi-time-scale control architecture can decouple...
+Systems and methods are provided for implementing decoupling of virtual machine host and guest power usage. An orchestrator of a computing system assigns a virtual machine (“VM”) performance level to a VM or guest for performing a VM task at a high performance level, and assigns a management partition (“MP”) performance level to the MP or host for performing a management task at a low performance level. A hypervisor...
+
+CPC: G06F 9/5044, G06F 9/45558, G06F 9/5061, G06F 9/5094, G06F 2209/501
+
+### [Method, apparatus, and system for energy efficiency and energy conservation including power and performance balancing between multiple processing elements and/or a communication bus](https://patents.google.com/patent/US12809441B2/en)
+`US12809441B2` | Grant | Daedalus Prime LLC | published 2026-11-24 | filed 2024-09-19 | score 0.19
+
+An apparatus, method and system is described herein for efficiently balancing performance and power between processing elements based on measured workloads. If a workload of a processing element indicates that it is a bottleneck, then its performance may be increased. However, if a platform or integrated circuit including the processing element is already operating at a power or thermal limit, the increase in...
+
+CPC: G06F 1/3206, G06F 1/206, G06F 1/3203, G06F 1/3253, G06F 1/3287
+
+### [Unified memory systems and methods](https://patents.google.com/patent/US12810376B2/en)
+`US12810376B2` | Grant | NVIDIA Corporation | published 2026-11-24 | filed 2024-09-03 | score 0.19
+
+The present invention facilitates efficient and effective utilization of unified virtual addresses across multiple components. In one exemplary implementation, an address allocation process comprises: establishing space for managed pointers across a plurality of memories, including allocating one of the managed pointers with a first portion of memory associated with a first one of a plurality of processors; and...
+
+CPC: G06T 1/20, G06F 9/5016, G06F 12/109, G06T 1/60
+
+### [METHOD AND APPARATUS FOR SCHEDULING AND ASSIGNING TASKS TO COMPUTING RESOURCES](https://patents.google.com/patent/US20260377225A1/en)
+`US20260377225A1` | Application | TELEFONAKTIEBOLAGET LM ERICSSON (PUBL) | published 2026-11-26 | filed 2022-12-09 | score 0.19
+
+The disclosure relates to a method, apparatus and non-transitory computer readable media for scheduling and assigning tasks to computing resources. The method comprises receiving a list of tasks, the list of tasks including batch tasks, real-time tasks and synchronous tasks, each task being assigned a weight. The method comprises receiving computing resources specifications. The method comprises using Lagrangian...
+
+CPC: G06F 9/5027, G06F 9/4881
+
+### [ELECTRONIC DEVICE COMPRISING PLURALITY OF COMPUTING NODES AND A METHOD OF OPERATING ONE OF THE PLURALITY OF COMPUTING NODES](https://patents.google.com/patent/US20260377240A1/en)
+`US20260377240A1` | Application | SK hynix Inc. | published 2026-11-26 | filed 2025-11-05 | score 0.19
+
+An electronic device includes a host, and a plurality of computing nodes configured to execute a model in response to a request from the host, in which each of the plurality of computing nodes comprises a computing device configured to perform a computation of the model, a first memory device configured to store a model parameter used for the computation of the model, and a second memory device configured to assist...
 
 CPC: G06F 9/505
 
-### [Dynamic graphical processing unit register allocation](https://patents.google.com/patent/US12801427B2/en)
-`US12801427B2` | Grant | Advanced Micro Devices, Inc. | published 2026-11-17 | filed 2023-01-12 | score 0.19
+### [DISTRIBUTED EDGE AI COMPUTING FABRIC WITH DEDICATED WIRELESS INTERCONNECTS FOR GPU-ENABLED WIRELESS ACCESS POINTS](https://patents.google.com/patent/US20260380406A1/en)
+`US20260380406A1` | Application | Cisco Technology, Inc. | published 2026-11-26 | filed 2025-12-04 | score 0.19
 
-Systems, apparatuses, and methods for dynamic graphics processing unit (GPU) register allocation are disclosed. A GPU includes at least a plurality of compute units (CUs), a control unit, and a plurality of registers for each CU. If a new wavefront requests more registers than are currently available on the CU, the control unit spills registers associated with stack frames at the bottom of a stack since they will...
+In one embodiment, an illustrative method herein may comprise: receiving, at a wireless access point comprising a graphics processing unit and a high-throughput, low-latency wireless interconnect, workload metrics and connectivity metrics broadcast from a plurality of neighboring access points; dynamically selecting one or more of the plurality of neighboring access points to form a decentralized compute cluster...
 
-CPC: G06F 9/4843, G06F 9/30098, G06F 9/3836, G06F 9/3851, G06F 9/3887
+CPC: H04W 36/08, G06F 9/4856, H04W 88/08
 
-### [RESOURCE MANAGEMENT SYSTEM](https://patents.google.com/patent/US20260367976A1/en)
-`US20260367976A1` | Application | HITACHI VANTARA, LTD. | published 2026-11-19 | filed 2025-05-13 | score 0.19
+### [Address management in GPU super cluster](https://patents.google.com/patent/US12809682B2/en)
+`US12809682B2` | Grant | Oracle International Corporation | published 2026-11-24 | filed 2023-11-02 | score 0.19
 
-Systems and methods involve for a selection of a policy for resource allocation, retrieving a configuration priority for the selected policy; determining a destination storage system for the retrieved configuration priority; determining provisioned capacity of the destination storage system. For the provisioned capacity exceeding a reserve capacity of the destination storage system, they can further include...
+Described herein is a network fabric including a plurality of graphical processing unit (GPU) clusters that are communicatively coupled with one another via a plurality of switches arranged in a hierarchical structure including a first tier of switches, a second tier of switches, and a third tier of switches. One or more switches are selected from the third tier of switches to form a set of target switches, where...
 
-CPC: G06F 9/5027
+CPC: G06F 9/5027, G06F 9/5083, G06F 13/4022, H04L 45/24, H04L 45/74
 
-### [ENVOY FOR MULTI-TENANT COMPUTE INFRASTRUCTURE](https://patents.google.com/patent/US20260367817A1/en)
-`US20260367817A1` | Application | Rubrik, Inc. | published 2026-11-19 | filed 2026-07-22 | score 0.19
+### [Method and System for Reducing Deadlock and Query Management in Database](https://patents.google.com/patent/US20260377247A1/en)
+`US20260377247A1` | Application | International Business Machines Corporation | published 2026-11-26 | filed 2025-05-22 | score 0.18
 
-A data management and storage (DMS) cluster of peer DMS nodes manages data of a tenant of a multi-tenant compute infrastructure. The compute infrastructure includes an envoy connecting the DMS cluster to virtual machines of the tenant executing on the compute infrastructure. The envoy provides the DMS cluster with access to the virtual tenant network and the virtual machines of the tenant connected via the virtual...
+A computer-implemented method for query deployment in a database system includes receiving, by a first LSTM cell, time-series data indicating activity levels across a plurality of database nodes, and analyzing, by the first LSTM cell, the time-series data to detect one or more blocked or deadlocked queries. The method includes, evaluating, by a second LSTM cell, nodes within a database to determine if such nodes...
 
-CPC: G06F 3/065, G06F 3/0619, G06F 3/0664, G06F 3/067, G06F 9/45558
+CPC: G06F 9/524, G06F 9/5083
 
-### [Provisioning computing resources across computing platforms](https://patents.google.com/patent/US12801444B2/en)
-`US12801444B2` | Grant | Nutanix, Inc. | published 2026-11-17 | filed 2021-07-28 | score 0.19
+### [Disaggregated Memory Pooling Across Commodity-DRAM Compute Sleds](https://patents.google.com/patent/US20260377224A1/en)
+`US20260377224A1` | Application | UnifabriX Ltd. | published 2026-11-26 | filed 2026-08-03 | score 0.18
 
-This disclosure relates to resource allocation for workloads across computing environments and computing architectures. Computing resource usage of a workload is monitored, where the workload is executing on one or more processors of a first computing environment. One or more comparable workloads are identified based on the computing resource usage of the workload in the first environment. A suggested resource...
+Implementations address the memory demands of modern AI, machine-learning, and HPC workloads, where capacity requirements grow and shift while memory installed in individual servers remains stranded and costly to scale. A disaggregated memory system pools DRAM contributed by multiple memory-compute sleds, each carrying a small number of CPUs, DRAM components, and an RPU that performs translations, and connects the...
 
-CPC: G06F 9/505, G06F 9/5083, G06F 11/3433
+CPC: G06F 9/5016, G06F 12/0638
 
-### [Data storage device and method for dynamic flash interface module (FIM) load balancing for memory die sharing](https://patents.google.com/patent/US12801446B2/en)
-`US12801446B2` | Grant | Sandisk Technologies, Inc. | published 2026-11-17 | filed 2024-03-20 | score 0.19
+### [Central processing unit partition diagnosis](https://patents.google.com/patent/US12809668B2/en)
+`US12809668B2` | Grant | Microsoft Technology Licensing, LLC | published 2026-11-24 | filed 2022-09-29 | score 0.18
 
-A data storage device can have a memory with one or more memory dies. The data storage device can also have one or more backend modules (e.g., flash interface modules (FIMs)) that send sense/transfer or program operations to the memory dies. In some situations, there can be more memory dies than FIMs. Using a fixed allocation between memory dies and FIMs in this situation can result in an inefficient pipeline of...
+Systems and methods for providing cross-partition preemption analysis and prevention. Computing devices typically include a main central processing unit (CPU) with multiple cores to execute instructions independently, cooperatively, or in other suitable manners. In some examples, one or more cores are partitioned and dedicated to a particular application, where exclusive access of the cores in the partition is...
 
-CPC: G06F 9/505, G06F 3/0601, G06F 3/061, G06F 3/0635, G06F 3/0659
-
-### [SAFE INTERRUPT HANDLING](https://patents.google.com/patent/US20260368019A1/en)
-`US20260368019A1` | Application | NVIDIA Corporation | published 2026-11-19 | filed 2025-12-02 | score 0.19
-
-In various examples, systems and methods are disclosed that handle interrupts in a monolithic system. In particular, the embodiments of the present disclosure may implement separate memory regions for different interrupt handlers to execute based at least on criticality levels of interrupts. For example, in response to receiving an interrupt from a peripheral, the criticality level of the interrupt may be determined...
-
-CPC: G06F 11/0781, G06F 9/4881, G06F 11/0772
-
-### [GENERATING A DATA PIPELINE FROM MEDIA INPUT](https://patents.google.com/patent/US20260367963A1/en)
-`US20260367963A1` | Application | Microsoft Technology Licensing, LLC | published 2026-11-19 | filed 2025-06-25 | score 0.18
-
-Methods, apparatuses, and products for generating a data pipeline from media input, the method comprising: receiving, by a computing system, a media input comprising a representation of a data processing workflow; analyzing, by the computing system, the media input using one or more artificial intelligence models to detect a plurality of pipeline components; determining, by the computing system, an arrangement of...
-
-CPC: G06F 9/4843, G06F 9/451
-
-### [COORDINATION OF AGENTIC WORKFLOWS IN MULTI-AGENT ENVIRONMENTS](https://patents.google.com/patent/US20260367962A1/en)
-`US20260367962A1` | Application | Microsoft Technology Licensing, LLC | published 2026-11-19 | filed 2025-05-19 | score 0.18
-
-A disclosed agentic system includes a plurality of agents configured to coordinate control of a conversational interface based on transitions between a plurality of state machine states. Each of the states has a designated an agent control group comprising one or more agents selected from the plurality of agents that is responsible for acting on inputs received through the conversational interface while the state...
-
-CPC: G06F 9/4843, G06F 9/451
-
-### [Cognitive resource scheduling](https://patents.google.com/patent/US12801429B2/en)
-`US12801429B2` | Grant | The Government of the United States of America, as represented by the Secretary of the Navy | published 2026-11-17 | filed 2022-06-01 | score 0.18
-
-Systems and methods are provided for cognitive resource scheduling for radar systems. Embodiments of the present disclosure demonstrate the implementation of a policy neural network to perform task scheduling, which offers superior performance to existing heuristic methods while maintaining feasible execution times to enable real-time implementation.
-
-CPC: G06F 9/4881, G06F 9/5038
+CPC: G06F 9/4881, G06F 9/3836, G06F 9/5061
 
 ## AI and machine learning (15)
 
-### [NEURAL NETWORK INFERENCING WITH TOKEN REUSE](https://patents.google.com/patent/US20260368481A1/en)
-`US20260368481A1` | Application | NVIDIA Corporation | published 2026-11-19 | filed 2025-05-19 | score 0.36
+### [LARGE TO SMALL VISION-LANGUAGE MODEL RECALIBRATION](https://patents.google.com/patent/US20260377727A1/en)
+`US20260377727A1` | Application | NVIDIA Corporation | published 2026-11-26 | filed 2025-11-24 | score 0.35
 
-Apparatuses, systems, and techniques to performing inferencing by one or more Large Language Models. In at least one embodiment, one or more tokens may be previously identified by one or more LLMs and the one or more tokens previously identified by the one or more LLMs may be caused to be reused by the one or more LLMs to perform inferencing.
+Network architectures and machine learning techniques support training a neural network of a compact vision language model (VLM) from a larger, pretrained teacher VLM. Unlike traditional knowledge distillation techniques that require student and teacher models to share an identical tokenization scheme, the network architectures and machine learning techniques disclosed herein facilitate knowledge transfer between...
 
-CPC: G06N 3/043
+CPC: G06N 3/096
 
-### [MEMORY AUGMENTED LARGE LANGUAGE MODEL (LLM) CLASSIFICATION FRAMEWORK](https://patents.google.com/patent/US20260368282A1/en)
-`US20260368282A1` | Application | Optum, Inc. | published 2026-11-19 | filed 2025-05-15 | score 0.33
+### [Generating neural networks](https://patents.google.com/patent/US12810109B2/en)
+`US12810109B2` | Grant | NVIDIA Corporation | published 2026-11-24 | filed 2022-11-18 | score 0.35
 
-Various embodiments of the present disclosure provide machine learning architectures and training approaches that improve the functionality of a computer in various aspects. The techniques comprise receiving, using a classification large language model (LLM), an input embedding corresponding to an input data object, generating, using the classification LLM, a contextual embedding, for a classification task, based on...
+Apparatuses, systems, and techniques to generate one or more neural networks. In at least one embodiment, one or more neural networks are generated, based on, for example, one or more convolutional neural network operations and one or more transformer neural network operations.
 
-CPC: G06F 18/2431, G06N 3/0895
+CPC: G06N 3/04
 
-### [MIXTURE OF EXPERTS MODELS WITH SPARSIFIED WEIGHTS](https://patents.google.com/patent/US20260368480A1/en)
-`US20260368480A1` | Application | Microsoft Technology Licensing, LLC | published 2026-11-19 | filed 2026-07-27 | score 0.32
+### [Systems and methods for large language model reasoning](https://patents.google.com/patent/US12809858B2/en)
+`US12809858B2` | Grant | Salesforce, Inc. | published 2026-11-24 | filed 2024-12-09 | score 0.34
 
-A method is presented for operating a machine learning model including one or more mixture of experts layers. The method comprises receiving one or more input data shards at a routing gate network for a mixture of experts layer comprising a plurality of neural network experts. One or more neural network experts in the mixture of experts layer is designated layer to evaluate each input data shard. For each designated...
+A method for building an artificial intelligence (AI) agent. The method includes: receiving a training query; generating, by a first neural network based language model, a training dataset comprising a correct solution and an incorrect solution to the training query; generating, by a second neural network based language model, a first candidate score in response to the correct solution and a second candidate score...
 
-CPC: G06N 3/042, G06N 3/08
+CPC: G06F 16/243, G06F 16/24578, G06N 3/045, G06N 3/0985
 
-### [DWELL TIME OPTIMIZATION SYSTEM](https://patents.google.com/patent/US20260368535A1/en)
-`US20260368535A1` | Application | Microsoft Technology Licensing, LLC | published 2026-11-19 | filed 2025-05-19 | score 0.31
+### [TRAINING ENGINE(S) FOR TRAINING EMBEDDING MODELS USING PRE-TRAINED TRANSFORMER-BASED MODEL ATTENTION WEIGHTS](https://patents.google.com/patent/US20260377712A1/en)
+`US20260377712A1` | Application | Microsoft Technology Licensing, LLC | published 2026-11-26 | filed 2025-05-22 | score 0.33
 
-A dwell time optimization system is described. A method includes training a deep neural network (DNN) of a machine learning (ML) model to generate a predicted long dwell metric using a training sample from a training dataset, the training sample comprising a set of features and a target label, the set of features comprising video features associated with a video and entity features associated with an entity...
+Systems and methods herein provide a training engine and its related functions. In an aspect, a training engine may access a pre-trained large language model (LLM) with multiple layers and provide a set of domain-specific documents to the LLM. Responsive to submitting the set of domain-specific documents to the LLM, the training engine may extract attention weights from one or more layers of the LLM. Then, using the...
 
-CPC: G06N 3/09, G06F 16/738, G06N 3/045
+CPC: G06N 3/08, G06N 3/045
 
-### [Large language model (LLM) guided robust learning system design for C2 detection](https://patents.google.com/patent/US12803998B2/en)
-`US12803998B2` | Grant | Palo Alto Networks, Inc. | published 2026-11-17 | filed 2023-09-29 | score 0.31
+### [SYSTEMS AND METHODS FOR A VISION-LANGUAGE PRETRAINING FRAMEWORK](https://patents.google.com/patent/US20260378239A1/en)
+`US20260378239A1` | Application | Salesforce, Inc. | published 2026-11-26 | filed 2026-07-31 | score 0.32
 
-Various embodiments provide a system, method, and device for applying a C2 machine learning-based detection framework. The method incudes (i) generating a fuzzing based on a C2 machine-learning detection model using a large learning model for performing profile-based seed generation; and (ii) detecting C2 traffic using the C2 machine learning detection model.
+Embodiments described herein provide a multimodal vision-language model. The multimodal vision-language model contains a Generalist Multimodal Transformer capable of complete multiple tasks using the same set of parameters learning from pre-training. The Generalist Multimodal Transformer allows alignment between frozen, unimodal encoders, such as image encoders and large language models. The Generalist Multimodal...
 
-CPC: H04L 63/1425, H04L 41/16, H04L 63/1466, H04L 63/20, G06N 3/08
+CPC: G06V 20/70, G06F 40/10, G06F 40/126, G06F 40/284, G06F 40/35
 
-### [Hybrid explainable artificial intelligence system](https://patents.google.com/patent/US12801915B2/en)
-`US12801915B2` | Grant | Bank of America Corporation | published 2026-11-17 | filed 2023-09-12 | score 0.30
+### [AGENT-BASED ARCHITECTURES FOR CONTENT VALIDATION](https://patents.google.com/patent/US20260377689A1/en)
+`US20260377689A1` | Application | NVIDIA Corporation | published 2026-11-26 | filed 2025-05-21 | score 0.32
 
-A hybrid explainable artificial intelligence system may include a shallow learning model and a deep learning model. The shallow learning model may be a machine learning system. The deep learning model may be a neural network. The system may input a data set into both the shallow learning model and the deep learning model. Both the shallow learning model and the deep learning model may produce an output. When there...
+Systems and methods described herein relate to agent-based architectures for automated content validation. Multiple first software agents are executed to generate individual comparison data based on comparing at least first content and second content according to respective comparison metrics. At least one second software agent is executed to generate overall comparison data based on the individual comparison data....
 
-CPC: G06N 3/08, G06N 5/022
+CPC: G06N 3/045, G06N 3/08
 
-### [SYSTEM FOR NOON DETECTION AND AUTOMATIC INTERPRETATION OF DETECTED LOGS BASED ON MACHINE LEARNING](https://patents.google.com/patent/US20260368542A1/en)
-`US20260368542A1` | Application | CheckMAL Inc. | published 2026-11-19 | filed 2026-05-12 | score 0.30
+### [Graph-based recurrence classification machine learning frameworks](https://patents.google.com/patent/US12809941B2/en)
+`US12809941B2` | Grant | Optum, Inc. | published 2026-11-24 | filed 2022-01-25 | score 0.31
 
-This specification relates to a method for a system to perform true/false positive determination and automatic interpretation of a log, the method including: collecting the log related to a security event through a log collection module; preprocessing the log through a preprocessing module and constructing a behavior graph based on the preprocessed log; classifying the true/false positives of the log based on the...
+Various embodiments of the present invention provide methods, apparatus, systems, computing devices, computing entities, and/or the like for performing predictive data analysis operations. For example, certain embodiments of the present invention utilize systems, methods, and computer program products that perform predictive data analysis operations by using a graph-based recurrence classification machine learning...
 
-CPC: G06N 3/092, G06N 3/0475
+CPC: G06F 18/24, G06F 18/214, G06N 20/20
 
-### [Automated discovery and design process based on black-box optimization with mixed inputs](https://patents.google.com/patent/US12801980B2/en)
-`US12801980B2` | Grant | International Business Machines Corporation | published 2026-11-17 | filed 2022-06-07 | score 0.29
+### [Neural architecture search](https://patents.google.com/patent/US12810172B2/en)
+`US12810172B2` | Grant | Google LLC | published 2026-11-24 | filed 2023-07-26 | score 0.31
 
-A method and system of optimizing a machine learning process includes receiving an input set of historical data including input values and output values. The historical data is incorporated into a sampling design to form the initial dataset. A surrogate model of the machine learning model is generated by fitting the historical data using a rectified linear activation function (ReLU) deep neural network....
+Methods, systems, and apparatus, including computer programs encoded on computer storage media, for determining neural network architectures. One of the methods includes generating, using a controller neural network, a batch of output sequences, each output sequence in the batch defining a respective architecture of a child neural network that is configured to perform a particular neural network task; for each...
 
-CPC: G06N 20/00
+CPC: G06N 3/0985, G06F 18/217, G06N 3/044
 
-### [LARGE LANGUAGE MODELS TRAINING DATA FILTERING](https://patents.google.com/patent/US20260368530A1/en)
-`US20260368530A1` | Application | International Business Machines Corporation | published 2026-11-19 | filed 2025-05-13 | score 0.29
+### [Method for reducing element of neural network having attention mechanism](https://patents.google.com/patent/US12810160B2/en)
+`US12810160B2` | Grant | Fujitsu Limited | published 2026-11-24 | filed 2023-07-18 | score 0.30
 
-An embodiment includes sampling form sample domain data, representative of data pertaining to a domain, wherein the sample domain data comprises a set of documents. The embodiment includes establishing, a statistical distribution of the set of documents according to a readability metric of each document in the set of documents based on the domain. The embodiment includes causing the machine learning model to output...
+A method including: inserting padding layers into a downstream side of each of a Q layer and a K layer, the padding layer padding one or more elements of a tensor, the Q and K layers respectively outputting a Query and a Key, the Query and the Key being a result of an arithmetic operating process on an input tensor in an attention mechanism in the trained machine learning model of a neural network having the...
 
-CPC: G06N 3/0895
+CPC: G06N 3/082
 
-### [Dynamic neural distribution function machine learning architecture](https://patents.google.com/patent/US12801914B2/en)
-`US12801914B2` | Grant | ADAPTIVE COMPUTATION LLC | published 2026-11-17 | filed 2022-12-29 | score 0.29
+### [COMPUTER-IMPLEMENTED METHOD AND SET-UP FOR CONFIGURING AN IMAGING AND/OR IMAGE-PROCESSING DEVICE](https://patents.google.com/patent/US20260380120A1/en)
+`US20260380120A1` | Application | Balluff GmbH | published 2026-11-26 | filed 2026-05-05 | score 0.29
 
-The present disclosure discusses dynamic supervised learning (DSL) and dynamic neural distribution function (DNDF) machine learning architectures and platforms. In contrast to existing ML approaches, DNDF accommodates a whole data structure via a neural network distribution function from which a decision boundary is born out. In particular, a neural network learning algorithm is used to extract a decision boundary...
+The computer-implemented method for the automatable setting-up of a device intended for a predefined use is characterised in that the method is effected by means of a set-up assistant which has a large language model and is based on generative artificial intelligence, wherein the method comprises the following steps: a user communicating with the configuration assistant in natural language, via a computer interface,...
 
-CPC: G06N 3/08, G06N 3/045, G06N 3/084
+CPC: H04N 23/64, G06F 9/453, G06N 3/045, G06N 3/08
 
-### [Systems and Methods for Fine-Tuning Generative Models for Detecting the Relevance of Content Items](https://patents.google.com/patent/US20260368531A1/en)
-`US20260368531A1` | Application | Google LLC | published 2026-11-19 | filed 2025-05-15 | score 0.29
+### [System and method for accurate responses from chatbots and LLMs](https://patents.google.com/patent/US12809886B2/en)
+`US12809886B2` | Grant | Acurai, Inc. | published 2026-11-24 | filed 2025-03-08 | score 0.29
 
-Systems and methods for fine-tuning a generative model for detecting the relevance of content items are provided. The method includes receiving, by a computing system, a website identifier associated with a web resource; extracting, by the computing system, a plurality of assets from the web resource based on the website identifier; generating, by a first machine-learning model operating on the computing system, a...
+Systems and methods are described for obtaining accurate responses from large language models (LLMs) and chatbots, including for question and answering, exposition, and summarization. These systems and methods accomplish these objectives via use of noun phrase avoiding processes such as a noun phrase collision detection process, a query splitting process, and a topical splitting process as well as by use of...
 
-CPC: G06N 3/0895
+CPC: G06F 16/283, G06F 16/3344, G06F 16/3347, G06F 40/284, G06N 3/08
 
-### [On-the-fly deep learning in machine learning at autonomous machines](https://patents.google.com/patent/US12801907B2/en)
-`US12801907B2` | Grant | INTEL CORPORATION | published 2026-11-17 | filed 2023-05-23 | score 0.29
+### [OPTIMIZING VIRAL CAPSIDS USING MACHINE LEARNING](https://patents.google.com/patent/US20260378544A1/en)
+`US20260378544A1` | Application | Sanofi | published 2026-11-26 | filed 2023-11-28 | score 0.29
 
-A mechanism is described for facilitating the transfer of features learned by a user-independent pre-trained deep neural network to a user-dependent neural network. The mechanism includes extracting a feature learned by a first deep neural network (DNN) model via the framework, wherein the first DNN model is a pre-trained DNN model for computer vision to enable user-independent classification of an object within an...
+Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for generating a fitness score for a capsid monomer. In one aspect, a method comprises: receiving data defining an amino acid sequence of a monomer of a capsid; processing the data defining the amino acid sequence of the monomer of the capsid using an embedding neural network, in accordance with values of a set of...
 
-CPC: G06N 3/063, G06F 9/46, G06F 18/214, G06F 18/2148, G06F 18/2411
+CPC: G16B 30/00, G06N 3/044, G06N 3/08, G16B 40/00
 
-### [OPTIMIZING TRAINING OF MACHINE LEARNING MODELS WITH FINE-GRAINED LABELS](https://patents.google.com/patent/US20260368639A1/en)
-`US20260368639A1` | Application | NEC Laboratories America, Inc. | published 2026-11-19 | filed 2026-04-22 | score 0.29
+### [Neural network-based context-aware code translation and optimization](https://patents.google.com/patent/US12809605B2/en)
+`US12809605B2` | Grant | International Business Machines Corporation | published 2026-11-24 | filed 2023-12-14 | score 0.29
 
-Systems and methods for optimizing training of machine learning models with fine-grained labels. Bounding boxes of detected entities within a scene obtained from images can be generated with an open vocabulary model. Clipped entities can be generated based on pixel-wise information of the detected entities obtained within the bounding boxes with a segmentation model. Fine-grained labels for the detected entities can...
+Systems and methods for efficiently translating program code from a source language to a target language. Input source code is parsed, using a processor device, into an Intermediate Representation (IR). A structural and semantic model of the source code are established by applying static analysis to the IR, and a program skeleton of the target code is constructed from the IR, including generating context-aware...
 
-CPC: G06N 20/00, G06T 7/12, G06T 7/20, G06V 10/25, G06V 10/774
+CPC: G06F 8/447, G06F 8/427, G06N 3/0455
 
-### [SYSTEMS AND METHODS FOR BUILDING AI AGENTS USING REASONING LANGUAGE MODELS](https://patents.google.com/patent/US20260368539A1/en)
-`US20260368539A1` | Application | Salesforce, Inc. | published 2026-11-19 | filed 2025-09-05 | score 0.28
+### [METHODS FOR OPERATING A BIOLOGICAL NEURAL NETWORK COMPUTING SYSTEM WITH ADAPTIVE COMPUTATIONAL INTERFACES AND AUTOMATED CONTROL](https://patents.google.com/patent/US20260377708A1/en)
+`US20260377708A1` | Application | FINALSPARK SARL | published 2026-11-26 | filed 2026-07-24 | score 0.29
 
-A method for building an artificial intelligence (AI) agent is provided. The method includes obtaining a training dataset including a training query and a groundtruth answer; generating a training output including a reasoning portion subject to a first generative budget and a solution portion that results from the reasoning portion subject to a second generative budget; assigning a reward based on a comparison...
+An automation system is disclosed that couples an in vitro biological neural network (BNN) to a closed-loop control architecture including a stimulation interface, a readout interface, a supply interface, and a sensing interface. The BNN comprises neural cells in contact with a culture medium supported, for example, on a microelectrode array substrate, a hydrogel, a microfluidic device, or a combination thereof. The...
 
-CPC: G06N 3/092, G06N 3/09
+CPC: G06N 3/061, C12M 41/48
 
-### [DISCOVERING COMPUTER PROGRAMS USING LANGUAGE MODEL NEURAL NETWORKS](https://patents.google.com/patent/US20260367930A1/en)
-`US20260367930A1` | Application | GDM Holding LLC | published 2026-11-19 | filed 2026-05-14 | score 0.28
+### [Generating a multi-entity graph representation for determining a therapeutic treatment utilizing a graph neural network](https://patents.google.com/patent/US12811016B1/en)
+`US12811016B1` | Grant | Recursion Pharmaceuticals, Inc. | published 2026-11-24 | filed 2025-07-31 | score 0.29
 
-Systems and methods for searching through a space of candidate computer programs for performing a task to determine a final computer program that includes information of how to perform the task (i.e., steps and processes to accomplish a task).
+The present disclosure relates to methods, systems, and non-transitory computer-readable media for utilizing novel multi-entity graph representations and a graph neural network to determine therapeutic treatments for clinical patients and/or to select preclinical models that are representative of a patient population. In particular, the disclosed systems can access (or receive) data from a plurality of data sources,...
 
-CPC: G06F 9/44505, G06F 16/23, G06N 3/0475
+CPC: G16H 50/70, G06N 3/042, G06N 3/08, G16H 20/10
